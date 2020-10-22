@@ -1,0 +1,28 @@
+{
+  "name": "bimhub-back-end",
+  "version": "1.0.0",
+  "description": "bimhub application",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "mishamin116@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "2.4.1",
+    "@types/bcryptjs": "2.4.2",
+    "@types/jsonwebtoken": "8.5.0",
+    "apollo-errors": "1.9.0",
+    "bcryptjs": "2.4.3",
+    "graphql-yoga": "1.18.3",
+    "jsonwebtoken": "8.5.1"
+  },
+  "devDependencies": {
+    "@prisma/cli": "2.4.1",
+    "nodemon": "2.0.4",
+    "ts-node": "8.10.2",
+    "typescript": "3.9.7"
+  }
+}
